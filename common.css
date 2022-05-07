@@ -1,0 +1,317 @@
+
+
+/* main partv of starting nav bar */
+#main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffde2f;
+    color: black;
+    height: 80px;
+    width: auto;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#left{
+    display: flex;
+    padding: 10px;
+    
+}
+#left>div{
+    margin: 10px;
+}
+#left>div>a{
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 5px;
+        margin-top: 10px;
+        
+}
+
+#left a{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+#left>div>a:hover{
+    color: white;
+    background-color: black;
+}
+#right{
+    display: flex;
+    margin-right: 60px;
+    background-color: #ffde2f;
+    justify-content: center;
+    /* margin-top: ; */
+}
+.searchbar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    padding: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+::placeholder{
+    color: transparent;
+}
+.searchbar button img{
+    width:28px;
+    margin:auto;
+    background: #ffde2f;
+    color: transparent;
+   cursor: pointer;
+}
+
+ /* upto first navbar.............................. */
+
+
+
+ /* second navbar starts..................... */
+#main2 {
+   display: flex;
+   height: 68px;
+   width: 1700PX;
+   background-color:#313131;
+   color: rgba(255, 255, 255, 0.816);
+   margin-top: 20px;
+   margin-left: 80px;
+   margin-right: 80px;
+   /* margin-bottom: 70px; */
+}
+
+#main2>h2{
+    margin-top: 20px;
+    margin-left: 70px;
+    /* overflow: hidden; */
+
+    
+/* justify-content: space-around;    */
+}
+
+
+#left1{
+   
+    width: 150px;
+    background-color: #AAAAAA;
+    color: #313131;
+    border-radius: 0px 10px 10px 0px;
+      
+    
+}
+#left1>h3{
+    text-align:center;
+    margin-top: 30px;
+}
+
+/* second navbar end;;;;;;;;;;;;;;;;;;;;;;; */
+  
+
+/* main bodypartstars;;;;;;;;;;;;;;;;;; */
+
+#bodymain{
+    display:flex;
+    margin: auto;
+    /* border: 1px solid red; */
+    /* height: ; */
+
+}
+
+/* side buttons starts;;;;;;;;;;;;;;;;;;;;;; */
+#box2{
+   
+    /* border: 1px solid green; */
+    width: 43%;
+    
+}
+
+
+#navbar{
+    display: grid;
+    grid-template-rows: auto;
+    gap: 25px;
+    margin-top: 10px;
+    font-size: 30px;
+   
+    
+}
+#navbar a{
+    color: black;
+    text-decoration: none;
+    
+}
+#navbar a ::after, ::before {
+    box-sizing: border-box;
+}
+#navbar>div:hover{
+    color: white;
+    background-color:#ffde2f ;
+
+}
+
+/* side buttons end here;;;;;;;;;;;;;;; */
+
+
+/* main3starts her;;;;;;;;;;;;;;;; */
+#main3{
+
+    padding: 20px;
+     width: 160%;
+ }
+
+#main3>h1{
+    
+    font-size: 45px;
+    color: #36363c;
+  padding-top: 120px;
+    font-family: "Roboto Slab",serif;
+}
+#main3>h3{
+    font-size: 20px;
+    width: 100%;
+    font-weight: 400px;
+    font-family: "Roboto Slab",serif;
+    line-height: 24px;
+    padding-top: 20px
+}
+#main3>p {
+    color: #707070;
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-family: "Roboto Slab",serif;
+    margin-top: 15px;
+}
+#main3 p img{
+  
+    height: 30px;
+    width: 30px;
+}
+#main3 a{
+    color: #313131;
+    
+}
+#main3>img{
+   
+    margin-top: 10px;
+    height:500px;
+    width: 800px
+}
+#caption {
+    background-color: #000000bd;
+    width: 800px;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+#para{
+  
+    width: 815px;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#para a {
+    color:blue;
+}
+
+#modi{
+    /* margin: auto; */
+    width:55%;
+    height: 1000px;
+    border: 1px solid blue;
+    margin-top: 50px;
+    
+}
+#modi>img{
+     height: 90px;
+     border-radius: 50px;
+   
+}
+#modi h4{
+    border: 1px solid burlywood;
+    display: flex;
+    margin-left: 110px;
+    width: 100px;
+}
+
+#map{
+    height:25px;
+}
+
+#lastdiv{
+    border: 1px solid pink;
+    width: 200px ;
+    height: 100px;
+}
+
+#imagepart{
+    /* border: 3px solid black; */
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 550px);
+    gap:20px;
+    padding: 10px;
+}
+#imagepart>div{
+    /* border: 1px solid orange; */
+    height:auto;
+}
+#imagepart img{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 100%;
+    height: 80%;
+
+}
+#imagepart p{
+    
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: #ff5f2f;
+}
+#finalnav{
+    margin-top: 30px;
+    /* border: 3px solid black; */
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(3,120px);
+    gap: 20px;
+    background: #1c1c1c;
+}
+#finalnav div{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+
+}
+#finalnav img{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 60px;
+}
+#finalnav a{
+    color: #707070;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;  
+
+}
+
+#face img{
+    width: 20px;
+    color: #707070;
+}
